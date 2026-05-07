@@ -4,7 +4,7 @@ ArchiMate 4.0 artifacts
 ## Hoe gebruik je dit?
 
   **Importeren in Archi:**
-  1. Download `archisurance-3.0.xml`
+  1. Download `archisurance-3.2.xml`
   2. In Archi: File → Import → Open Exchange XML → kies het bestand
   3. Het model is direct werkbaar (139 elementen, 178 relaties, 17 views)
 
