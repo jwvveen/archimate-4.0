@@ -6,9 +6,35 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-6e8cdcf4bb5e">
-    <bounds x="480" y="150" width="120" height="55"/>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-a7ac15fa5a0e4fbfa521d541f4eb6e93"
+        source="id-child-6e8cdcf4bb5e"
+        target="id-a18f295e176140099ad003aebd78fc52">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_id-a7d4e213c5a24d1fa04244644bbbf385.xml#id-a7d4e213c5a24d1fa04244644bbbf385"/>
+    </sourceConnections>
+    <bounds
+        x="480"
+        y="150"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_id-6e8cdcf4bb5e.xml#id-6e8cdcf4bb5e"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-a18f295e176140099ad003aebd78fc52"
+      targetConnections="id-a7ac15fa5a0e4fbfa521d541f4eb6e93">
+    <bounds
+        x="480"
+        y="264"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessRole"
+        href="BusinessRole_id-9cb7c31a15964b6ab1dfd4bbbdb895b8.xml#id-9cb7c31a15964b6ab1dfd4bbbdb895b8"/>
   </children>
 </archimate:ArchimateDiagramModel>
