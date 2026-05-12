@@ -42,7 +42,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-df423e17b3f8"
       targetConnections="id-conn-497e79adc19d">
-    <bounds x="480" y="450" width="120" height="55"/>
+    <bounds x="480" y="540" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-df423e17b3f8.xml#id-df423e17b3f8"/>
