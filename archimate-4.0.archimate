@@ -32,12 +32,12 @@
         <bounds x="480" y="150" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-1823a078cdd9" source="id-child-b6d4d849585a" target="id-child-1520b9f63134" archimateRelationship="id-a7d4e213c5a24d1fa04244644bbbf385"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-child-1520b9f63134" archimateElement="id-9cb7c31a15964b6ab1dfd4bbbdb895b8">
+      <child xsi:type="archimate:DiagramObject" id="id-child-1520b9f63134" targetConnections="id-conn-1823a078cdd9" archimateElement="id-9cb7c31a15964b6ab1dfd4bbbdb895b8">
         <bounds x="480" y="264" width="120" height="73"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-497e79adc19d" source="id-child-1520b9f63134" target="id-child-df423e17b3f8" archimateRelationship="id-497e79adc19d"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-child-df423e17b3f8" archimateElement="id-df423e17b3f8">
-        <bounds x="480" y="420" width="120" height="55"/>
+      <child xsi:type="archimate:DiagramObject" id="id-child-df423e17b3f8" targetConnections="id-conn-497e79adc19d" archimateElement="id-df423e17b3f8">
+        <bounds x="480" y="450" width="120" height="55"/>
       </child>
     </element>
   </folder>
