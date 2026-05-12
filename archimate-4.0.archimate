@@ -60,7 +60,5 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-a17c1ab73648" source="id-child-ab01cb63e58f" target="id-child-53c9c701dfb2" archimateRelationship="id-6af0290b3af9"/>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Views" id="id-folder-diagrams">
-    </element>
   </folder>
 </archimate:model>
