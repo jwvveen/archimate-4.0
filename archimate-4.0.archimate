@@ -96,8 +96,7 @@
       </child>
       <child xsi:type="archimate:Note" id="id-child-04d515404c4f">
         <bounds x="20" y="20" width="900" height="87"/>
-        <content>Note
-Dit is een test</content>
+        <content>Dit is een mooie test.</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-child-fe73bf132525" archimateElement="id-fe73bf132525">
         <bounds x="280" y="150" width="120" height="55"/>

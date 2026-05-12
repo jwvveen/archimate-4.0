@@ -186,8 +186,7 @@
       id="id-child-04d515404c4f"
       textPosition="0">
     <bounds x="20" y="20" width="900" height="87"/>
-    <content>Note
-Dit is een test</content>
+    <content>Dit is een mooie test.</content>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
