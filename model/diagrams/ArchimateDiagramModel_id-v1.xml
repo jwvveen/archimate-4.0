@@ -33,7 +33,11 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-b777f0d29444.xml#id-b777f0d29444"/>
     </sourceConnections>
-    <bounds x="480" y="150" width="120" height="55"/>
+    <bounds
+        x="480"
+        y="150"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessActor"
         href="BusinessActor_id-6e8cdcf4bb5e.xml#id-6e8cdcf4bb5e"/>
@@ -47,13 +51,23 @@
         id="id-conn-497e79adc19d"
         source="id-child-1520b9f63134"
         target="id-child-df423e17b3f8">
-      <bendpoints startX="-130" startY="0" endX="130" endY="-227"/>
-      <bendpoints startX="-130" startY="227" endX="130" endY="0"/>
+      <bendpoints
+          startX="-130"
+          endX="130"
+          endY="-227"/>
+      <bendpoints
+          startX="-240"
+          endX="20"
+          endY="-227"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-497e79adc19d.xml#id-497e79adc19d"/>
     </sourceConnections>
-    <bounds x="480" y="264" width="120" height="73"/>
+    <bounds
+        x="480"
+        y="264"
+        width="120"
+        height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-9cb7c31a15964b6ab1dfd4bbbdb895b8.xml#id-9cb7c31a15964b6ab1dfd4bbbdb895b8"/>
@@ -71,7 +85,11 @@
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-223ffa015494.xml#id-223ffa015494"/>
     </sourceConnections>
-    <bounds x="220" y="500" width="120" height="55"/>
+    <bounds
+        x="220"
+        y="500"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-df423e17b3f8.xml#id-df423e17b3f8"/>
@@ -89,7 +107,11 @@
           xsi:type="archimate:FlowRelationship"
           href="FlowRelationship_id-27c20b45054d.xml#id-27c20b45054d"/>
     </sourceConnections>
-    <bounds x="400" y="500" width="120" height="55"/>
+    <bounds
+        x="400"
+        y="500"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-7dd5195fb476.xml#id-7dd5195fb476"/>
@@ -107,7 +129,11 @@
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-8221b7931dff.xml#id-8221b7931dff"/>
     </sourceConnections>
-    <bounds x="590" y="500" width="120" height="55"/>
+    <bounds
+        x="590"
+        y="500"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessProcess"
         href="BusinessProcess_id-5ea64e64d2d3.xml#id-5ea64e64d2d3"/>
@@ -125,7 +151,11 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-eb2214aeae7a.xml#id-eb2214aeae7a"/>
     </sourceConnections>
-    <bounds x="620" y="260" width="118" height="73"/>
+    <bounds
+        x="620"
+        y="260"
+        width="118"
+        height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-296a7bc4b8e8.xml#id-296a7bc4b8e8"/>
@@ -143,7 +173,11 @@
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-c63089d33aef.xml#id-c63089d33aef"/>
     </sourceConnections>
-    <bounds x="750" y="260" width="118" height="73"/>
+    <bounds
+        x="750"
+        y="260"
+        width="118"
+        height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-747b5b891c85.xml#id-747b5b891c85"/>
@@ -160,7 +194,11 @@
           xsi:type="archimate:TriggeringRelationship"
           href="TriggeringRelationship_id-1496f9ccd622.xml#id-1496f9ccd622"/>
     </sourceConnections>
-    <bounds x="40" y="500" width="120" height="55"/>
+    <bounds
+        x="40"
+        y="500"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-9f56896aa415.xml#id-9f56896aa415"/>
@@ -169,7 +207,11 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-7336b53f5c32"
       targetConnections="id-conn-8221b7931dff">
-    <bounds x="790" y="520" width="120" height="55"/>
+    <bounds
+        x="792"
+        y="500"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-7336b53f5c32.xml#id-7336b53f5c32"/>
@@ -177,9 +219,11 @@
   <children
       xsi:type="archimate:DiagramModelNote"
       id="id-child-80f538f0fef3"
-      textPosition="0">
-    <bounds x="10" y="10" width="407" height="113"/>
-    <content>Testding
-Dit is een test</content>
+      content="Dit is een test">
+    <bounds
+        x="10"
+        y="10"
+        width="407"
+        height="113"/>
   </children>
 </archimate:ArchimateDiagramModel>
