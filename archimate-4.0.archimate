@@ -34,7 +34,7 @@
     <element xsi:type="archimate:AssignmentRelationship" id="id-3af993cda0da" source="id-873fb23b12ff" target="id-89e5d6cb0c14"/>
   </folder>
   <folder name="Views" id="id-folder-views" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-v1">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="view" id="id-v1">
       <child xsi:type="archimate:DiagramObject" id="id-child-f34670115d17" archimateElement="id-89e5d6cb0c14">
         <bounds x="240" y="240" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-39721c60226e" source="id-child-f34670115d17" target="id-child-57771e11762e" archimateRelationship="id-06688f1c3278"/>
@@ -59,8 +59,6 @@
         <bounds x="320" y="90" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-83a1cc0836f7" source="id-child-fc2af739d7d7" target="id-child-aa703a9b800f" archimateRelationship="id-6af0290b3af9"/>
       </child>
-    </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Views" id="id-folder-diagrams">
     </element>
   </folder>
 </archimate:model>
