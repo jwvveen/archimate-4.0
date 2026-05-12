@@ -3,7 +3,15 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="AI proces"
-    id="id-v1">
+    id="id-v2">
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-child-6ebaee69eaae">
+    <bounds x="0" y="0" width="120" height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessProcess"
+        href="../business/BusinessProcess_id-6ebaee69eaae.xml#id-6ebaee69eaae"/>
+  </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-a64728c433db">
@@ -23,20 +31,20 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-f1e4474a8979">
+      id="id-child-bcb61a163ba7">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-conn-5b5e630af86f"
-        source="id-child-f1e4474a8979"
+        id="id-conn-b37ab1f2b3ea"
+        source="id-child-bcb61a163ba7"
         target="id-child-d4dc75e303f6">
       <archimateRelationship
-          xsi:type="archimate:AssignmentRelationship"
-          href="../relations/AssignmentRelationship_id-5b5e630af86f.xml#id-5b5e630af86f"/>
+          xsi:type="archimate:TriggeringRelationship"
+          href="../relations/TriggeringRelationship_id-b37ab1f2b3ea.xml#id-b37ab1f2b3ea"/>
     </sourceConnections>
     <bounds x="0" y="0" width="120" height="55"/>
     <archimateElement
-        xsi:type="archimate:BusinessRole"
-        href="../business/BusinessRole_id-f1e4474a8979.xml#id-f1e4474a8979"/>
+        xsi:type="archimate:BusinessEvent"
+        href="../business/BusinessEvent_id-bcb61a163ba7.xml#id-bcb61a163ba7"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -74,27 +82,19 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-6ebaee69eaae">
-    <bounds x="0" y="0" width="120" height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessProcess"
-        href="../business/BusinessProcess_id-6ebaee69eaae.xml#id-6ebaee69eaae"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-bcb61a163ba7">
+      id="id-child-f1e4474a8979">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-conn-b37ab1f2b3ea"
-        source="id-child-bcb61a163ba7"
+        id="id-conn-5b5e630af86f"
+        source="id-child-f1e4474a8979"
         target="id-child-d4dc75e303f6">
       <archimateRelationship
-          xsi:type="archimate:TriggeringRelationship"
-          href="../relations/TriggeringRelationship_id-b37ab1f2b3ea.xml#id-b37ab1f2b3ea"/>
+          xsi:type="archimate:AssignmentRelationship"
+          href="../relations/AssignmentRelationship_id-5b5e630af86f.xml#id-5b5e630af86f"/>
     </sourceConnections>
     <bounds x="0" y="0" width="120" height="55"/>
     <archimateElement
-        xsi:type="archimate:BusinessEvent"
-        href="../business/BusinessEvent_id-bcb61a163ba7.xml#id-bcb61a163ba7"/>
+        xsi:type="archimate:BusinessRole"
+        href="../business/BusinessRole_id-f1e4474a8979.xml#id-f1e4474a8979"/>
   </children>
 </archimate:ArchimateDiagramModel>
