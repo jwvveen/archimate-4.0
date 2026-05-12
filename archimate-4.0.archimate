@@ -8,7 +8,9 @@
   <folder name="Strategy" id="id-folder-strategy" type="strategy">
   </folder>
   <folder name="Business" id="id-folder-business" type="business">
+    <element xsi:type="archimate:BusinessRole" name="Analist" id="id-9cb7c31a15964b6ab1dfd4bbbdb895b8"/>
     <element xsi:type="archimate:BusinessActor" name="Jan Willem" id="id-6e8cdcf4bb5e"/>
+    <element xsi:type="archimate:BusinessProcess" name="Analyse" id="id-df423e17b3f8"/>
   </folder>
   <folder name="Application" id="id-folder-application" type="application">
   </folder>
@@ -21,11 +23,21 @@
   <folder name="Other" id="id-folder-other" type="other">
   </folder>
   <folder name="Relations" id="id-folder-relations" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-a7d4e213c5a24d1fa04244644bbbf385" source="id-6e8cdcf4bb5e" target="id-9cb7c31a15964b6ab1dfd4bbbdb895b8"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-497e79adc19d" source="id-9cb7c31a15964b6ab1dfd4bbbdb895b8" target="id-df423e17b3f8"/>
   </folder>
   <folder name="Views" id="id-folder-views" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="view" id="id-v1">
-      <child xsi:type="archimate:DiagramObject" id="id-child-6e8cdcf4bb5e" archimateElement="id-6e8cdcf4bb5e">
+      <child xsi:type="archimate:DiagramObject" id="id-child-b6d4d849585a" archimateElement="id-6e8cdcf4bb5e">
         <bounds x="480" y="150" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-1823a078cdd9" source="id-child-b6d4d849585a" target="id-child-1520b9f63134" archimateRelationship="id-a7d4e213c5a24d1fa04244644bbbf385"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-child-1520b9f63134" archimateElement="id-9cb7c31a15964b6ab1dfd4bbbdb895b8">
+        <bounds x="480" y="264" width="120" height="73"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-497e79adc19d" source="id-child-1520b9f63134" target="id-child-df423e17b3f8" archimateRelationship="id-497e79adc19d"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-child-df423e17b3f8" archimateElement="id-df423e17b3f8">
+        <bounds x="480" y="420" width="120" height="55"/>
       </child>
     </element>
   </folder>
