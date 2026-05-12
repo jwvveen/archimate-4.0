@@ -169,7 +169,7 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-7336b53f5c32"
       targetConnections="id-conn-8221b7931dff">
-    <bounds x="790" y="520" width="120" height="55"/>
+    <bounds x="790" y="500" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-7336b53f5c32.xml#id-7336b53f5c32"/>
