@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:archimate="http://www.archimatetool.com/archimate"
+    name="archimate-4.0"
+    id="id-archilens-model"
+    version="5.0.0">
+  <folder name="Strategy" id="id-folder-strategy" type="strategy">
+  </folder>
+  <folder name="Business" id="id-folder-business" type="business">
+    <element xsi:type="archimate:BusinessRole" name="BusinessRole" id="id-873fb23b12ff"/>
+    <element xsi:type="archimate:BusinessActor" name="BusinessActor" id="id-89e5d6cb0c14"/>
+  </folder>
+  <folder name="Application" id="id-folder-application" type="application">
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-folder-technology" type="technology">
+  </folder>
+  <folder name="Motivation" id="id-folder-motivation" type="motivation">
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-folder-implementation-migration" type="implementation_migration">
+  </folder>
+  <folder name="Other" id="id-folder-other" type="other">
+  </folder>
+  <folder name="Relations" id="id-folder-relations" type="relations">
+    <element xsi:type="archimate:AssignmentRelationship" id="id-d685a1787884" source="id-89e5d6cb0c14" target="id-873fb23b12ff"/>
+  </folder>
+  <folder name="Views" id="id-folder-views" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-view-v1">
+      <child xsi:type="archimate:DiagramObject" id="id-child-89e5d6cb0c14" archimateElement="id-89e5d6cb0c14">
+        <bounds x="520" y="190" width="120" height="55"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-conn-d685a1787884" source="id-child-89e5d6cb0c14" target="id-child-873fb23b12ff" archimateRelationship="id-d685a1787884"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-child-873fb23b12ff" archimateElement="id-873fb23b12ff">
+        <bounds x="520" y="330" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
