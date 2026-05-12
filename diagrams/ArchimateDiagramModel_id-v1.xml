@@ -5,44 +5,44 @@
     id="id-v1">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-db0753532554">
+      id="id-child-b2c688338f78">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-conn-658b518a29f4"
-        source="id-child-db0753532554"
-        target="id-child-3f353a1f23e9">
+        id="id-conn-41e61e2e0c92"
+        source="id-child-b2c688338f78"
+        target="id-child-47b15423592b">
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_id-658b518a29f4.xml#id-658b518a29f4"/>
+          href="AssignmentRelationship_id-41e61e2e0c92.xml#id-41e61e2e0c92"/>
     </sourceConnections>
     <bounds x="0" y="0" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessActor"
-        href="BusinessActor_id-db0753532554.xml#id-db0753532554"/>
+        href="BusinessActor_id-b2c688338f78.xml#id-b2c688338f78"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-3f353a1f23e9">
+      id="id-child-47b15423592b">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-conn-6cdd9158ea17"
-        source="id-child-3f353a1f23e9"
-        target="id-child-a24c24079aa7">
+        id="id-conn-d8c160d79db7"
+        source="id-child-47b15423592b"
+        target="id-child-584ec4243be7">
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
-          href="AssignmentRelationship_id-6cdd9158ea17.xml#id-6cdd9158ea17"/>
+          href="AssignmentRelationship_id-d8c160d79db7.xml#id-d8c160d79db7"/>
     </sourceConnections>
     <bounds x="0" y="0" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
-        href="BusinessRole_id-3f353a1f23e9.xml#id-3f353a1f23e9"/>
+        href="BusinessRole_id-47b15423592b.xml#id-47b15423592b"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-child-a24c24079aa7">
+      id="id-child-584ec4243be7">
     <bounds x="0" y="0" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:Process"
-        href="Process_id-a24c24079aa7.xml#id-a24c24079aa7"/>
+        href="Process_id-584ec4243be7.xml#id-584ec4243be7"/>
   </children>
 </archimate:ArchimateDiagramModel>
