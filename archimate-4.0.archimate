@@ -80,7 +80,7 @@
         <sourceConnection xsi:type="archimate:Connection" id="id-conn-1496f9ccd622" source="id-child-9f56896aa415" target="id-child-df423e17b3f8" archimateRelationship="id-1496f9ccd622"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-child-7336b53f5c32" targetConnections="id-conn-8221b7931dff" archimateElement="id-7336b53f5c32">
-        <bounds x="790" y="520" width="120" height="55"/>
+        <bounds x="790" y="500" width="120" height="55"/>
       </child>
       <child xsi:type="archimate:Note" id="id-child-80f538f0fef3">
         <bounds x="10" y="10" width="407" height="113"/>
