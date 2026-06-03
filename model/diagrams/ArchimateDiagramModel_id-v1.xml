@@ -21,7 +21,7 @@
         id="id-conn-b423e460e853"
         source="id-child-227936fa3232"
         target="id-child-b64763b7c3c9">
-      <bendpoints startX="276" startY="3" endX="7" endY="-116"/>
+      <bendpoints startX="202" startY="6" endX="-63" endY="-118"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-8fc17d5b02f5.xml#id-8fc17d5b02f5"/>
@@ -31,7 +31,7 @@
         id="id-conn-b4d684993d56"
         source="id-child-227936fa3232"
         target="id-child-c73deb577b29">
-      <bendpoints startX="132" startY="15" endX="-7" endY="-104"/>
+      <bendpoints startX="141" startY="46" endX="8" endY="-78"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-b777f0d29444.xml#id-b777f0d29444"/>
@@ -50,13 +50,12 @@
         id="id-conn-0c2c42924393"
         source="id-child-7575c82f8b8c"
         target="id-child-62cdac548c28">
-      <bendpoints startX="-130" startY="0" endX="130" endY="-227"/>
-      <bendpoints startX="-276" startY="0" endX="-16" endY="-227"/>
+      <bendpoints startX="-260" startY="-12" endX="-10" endY="-237"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-497e79adc19d.xml#id-497e79adc19d"/>
     </sourceConnections>
-    <bounds x="490" y="274" width="120" height="73"/>
+    <bounds x="480" y="276" width="120" height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-9cb7c31a15964b6ab1dfd4bbbdb895b8.xml#id-9cb7c31a15964b6ab1dfd4bbbdb895b8"/>
@@ -124,13 +123,13 @@
         id="id-conn-7e247961cccf"
         source="id-child-c73deb577b29"
         target="id-child-59ac62d289f0">
-      <bendpoints startX="5" startY="88" endX="224" endY="-143"/>
-      <bendpoints startX="-211" startY="88" endX="8" endY="-143"/>
+      <bendpoints startX="0" startY="88" endX="213" endY="-137"/>
+      <bendpoints startX="-213" startY="88" endX="0" endY="-137"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-eb2214aeae7a.xml#id-eb2214aeae7a"/>
     </sourceConnections>
-    <bounds x="630" y="270" width="118" height="73"/>
+    <bounds x="624" y="276" width="118" height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-296a7bc4b8e8.xml#id-296a7bc4b8e8"/>
@@ -144,13 +143,12 @@
         id="id-conn-8d4bc690fe37"
         source="id-child-b64763b7c3c9"
         target="id-child-8663d101d576">
-      <bendpoints startX="7" startY="112" endX="166" endY="-119"/>
-      <bendpoints startX="-173" startY="112" endX="-14" endY="-119"/>
+      <bendpoints startX="-51" startY="197" endX="104" endY="-27"/>
       <archimateRelationship
           xsi:type="archimate:AssignmentRelationship"
           href="AssignmentRelationship_id-c63089d33aef.xml#id-c63089d33aef"/>
     </sourceConnections>
-    <bounds x="760" y="270" width="118" height="73"/>
+    <bounds x="756" y="276" width="118" height="73"/>
     <archimateElement
         xsi:type="archimate:BusinessRole"
         href="BusinessRole_id-747b5b891c85.xml#id-747b5b891c85"/>
@@ -176,17 +174,10 @@
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-child-4bb79d6a12e2"
       targetConnections="id-conn-de0aa567e169">
-    <bounds x="800" y="510" width="120" height="55"/>
+    <bounds x="828" y="516" width="120" height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessEvent"
         href="BusinessEvent_id-7336b53f5c32.xml#id-7336b53f5c32"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelNote"
-      id="id-child-04d515404c4f"
-      textPosition="0">
-    <bounds x="20" y="20" width="900" height="87"/>
-    <content>Dit is een mooie test.</content>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -204,5 +195,12 @@
     <archimateElement
         xsi:type="archimate:Meaning"
         href="Meaning_id-fe73bf132525.xml#id-fe73bf132525"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelNote"
+      id="id-child-04d515404c4f"
+      textPosition="0">
+    <bounds x="20" y="20" width="900" height="87"/>
+    <content>Dit is een mooie test.</content>
   </children>
 </archimate:ArchimateDiagramModel>
